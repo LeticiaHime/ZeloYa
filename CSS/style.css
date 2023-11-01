@@ -21,18 +21,19 @@ body{
 
 header {
     background-color: var(--corfundo);
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top:20px;
+    padding-bottom: 40px;
+
 }
 
 nav a{
     font-family: 'Poppins', sans-serif;    font-size: 20px;
     color: var(--cormarrom);
-    font-size: 23px;
+    font-size: 25px;
     text-decoration: none;
-    margin-left: 10%;
-    margin-left: 15%;
-    padding-left: 8px;
+    margin-left: 7%;
+    margin-left: 13%;
+    padding-left: 5px;
     
 }
     
@@ -40,7 +41,7 @@ h1{
     font-family: 'Poppins', sans-serif;    font-size: 20px;
     color: var(--cormarrom);
     font-size: 50px;
-    padding-left: 20px;
+    padding-left: 50px;
     padding-top: 20px;
     
 
@@ -53,16 +54,33 @@ p{
     font-family: 'Poppins', sans-serif;    font-size: 20px;
     font-size: 23px;
     color: var(--corcinza);
-    padding-left: 20px;
+    padding-left: 50px;
 
 }
 
-footer{
-    font-family: 'Poppins', sans-serif;    font-size: 20px;
-    background-color: var(--cormarrom);
-    color: var(--corfundo);
-    margin-top: 15%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+div img{
+    float: right;
+    padding-bottom: 10px;
+    width: 600px;
+}
+strong{
+    color: var(--cormarrom);
+}
 
+footer p {
+    font-family: 'Poppins', sans-serif;    font-size: 20px;
+    color: var(--corfundo);
+    font-size: 15px;
+    background-color: var(--cormarrom);
+    margin-top: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+
+
+}
+#icon{
+    font-size: 27px;
+    color: var(--corrose);
+    padding-left: 20px;
 }
