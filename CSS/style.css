@@ -21,9 +21,10 @@ body {
 
 header {
     background-color: var(--cormarrom);
-    /* padding-top: 20px;
-    padding-bottom: 40px; */
+}
 
+.logo {
+    width: 300px;
 }
 
 .navbar {
@@ -63,7 +64,7 @@ h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     color: var(--cormarrom);
-    margin-top: 10%;
+    margin-top: 2%;
     font-size: 50px;
     padding-left: 50px;
     padding-top: 20px;
@@ -83,7 +84,7 @@ p {
 
 }
 
-img {
+.img2 {
     float: right;
     padding-bottom: 10px;
     border-radius: 20px;
@@ -102,7 +103,61 @@ strong {
     color: var(--cormarrom);
 }
 
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: var(--cormarrom);
+    font-size: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
 
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: var(--cormarrom);
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 20px;
+
+}
+
+iframe {
+    margin-left: 3%;
+}
+
+#ok{
+    padding-left: 50px;
+    font-size: 45px;
+}
+.div1{
+    font-family: 'Poppins', sans-serif;    font-size: 20px;
+    font-size: 25px;
+    color: var(--cormarrom);
+    background-color: rgb(216, 208, 191);
+    padding-left: 20px;
+    border-radius: 40px;
+    margin: 10px;
+    padding: 30px;
+    margin-top:7%;
+}
+
+input{
+    border-radius: 5px;
+    border-color: var(--cormarrom);
+    padding: 5px;
+    color: var(--corfundo);
+    background-color: var(--cormarromclaro);
+    font-size: 10px;
+}
+
+/* :hover input{
+    background-color: var(--cormarromclaro);
+    color: var(--corfundo);
+    border-color: var(--cormarrom);
+
+ 
+} */
 
 footer p {
     font-family: 'Poppins', sans-serif;
@@ -110,12 +165,7 @@ footer p {
     color: var(--corfundo);
     font-size: 15px;
     background-color: var(--cormarrom);
-    margin-top: 50%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 30px;
-
-
+    margin-bottom: 0;
 }
 
 #icon {
