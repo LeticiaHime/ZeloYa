@@ -48,12 +48,6 @@ nav a {
     transition: 0.5s;
 }
 
-.nav-link:hover {
-    color: var(--corrose);
-    border-bottom: solid var(--corrose) 3px;
-    transition: ease-out 0.5s;
-}
-
 li {
     width: 120px;
 }
@@ -63,7 +57,7 @@ h1 {
     font-size: 20px;
     color: var(--cormarrom);
     font-size: 50px;
-    margin-top: 4%;
+    margin-top: 1%;
     padding-left: 50px;
     padding-top: 20px;
 }
@@ -76,7 +70,7 @@ h2 {
     margin-top: 2%;
     font-size: 50px;
     padding-left: 50px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 
 .services {
@@ -133,13 +127,17 @@ strong {
     border: solid 1px var(--corrose);
 }
 
+#parceiros {
+    margin-top: 4%;
+}
+
 h4 {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     color: var(--cormarrom);
     font-size: 50px;
     padding-left: 50px;
-    padding-top: 20px;
+    padding-top: 1%;
 }
 
 h5 {
@@ -148,7 +146,7 @@ h5 {
     color: var(--cormarrom);
     font-size: 30px;
     padding-left: 50px;
-    padding-top: 20px;
+    padding-top: 1%;
 
 }
 
@@ -171,7 +169,11 @@ iframe {
     border-radius: 40px;
     margin: 10px;
     padding: 30px;
-    margin-top: 7%;
+    margin-top: 2%;
+}
+
+.pForm {
+    padding-right: 30%;
 }
 
 input {
@@ -180,7 +182,7 @@ input {
     padding: 5px;
     color: var(--corfundo);
     background-color: var(--cormarromclaro);
-    font-size: 20px;
+    font-size: 25px;
     margin: 0.4%;
 }
 
@@ -204,7 +206,7 @@ footer p {
 
 footer {
     background-color: var(--cormarrom);
-    padding: 3%;
+    padding: 2.5%;
 }
 
 #icon {
