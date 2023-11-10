@@ -152,6 +152,7 @@ h5 {
 
 iframe {
     margin-left: 3%;
+    width: 90%;
 }
 
 #ok {
@@ -213,4 +214,16 @@ footer {
     font-size: 27px;
     color: var(--corrose);
     padding-left: 20px;
+}
+
+@media (max-width:500px) {
+    img {
+        width: 300px;
+    }
+    .img {
+        width: 300px
+    }
+    .img2 {
+        width: 300px
+    }
 }
