@@ -107,26 +107,6 @@ strong {
     color: var(--cormarrom);
 }
 
-.contrate {
-    text-decoration: none;
-    background-color: var(--corrose);
-    border: solid 1px var(--cormarrom);
-    color: var(--cormarrom);
-    border-radius: 70px;
-    padding: 5px;
-    display: inline-block;
-    margin-left: 30%;
-    font-size: 30px;
-}
-
-.contrate:hover {
-    color: var(--corrose);
-    background-color: var(--cormarrom);
-    border: var(--corcinza);
-    transition: 1s;
-    border: solid 1px var(--corrose);
-}
-
 #parceiros {
     margin-top: 4%;
 }
@@ -188,11 +168,11 @@ input {
 }
 
 .campos {
-    width: 70%;
+    width: 100%;
 }
 
 .envio {
-    margin-left: 30%;
+    margin-left: 45%;
 }
 
 footer p {
@@ -216,14 +196,52 @@ footer {
     padding-left: 20px;
 }
 
-@media (max-width:500px) {
+@media (max-width:600px) {
     img {
         width: 300px;
     }
+
     .img {
-        width: 300px
+        width: 190px
     }
+
     .img2 {
-        width: 300px
+        width: 200px
     }
+
+    .logo {
+        width: 200px;
+    }
+
+    #formulario {
+        padding: 0;
+        align-items: center;
+    }
+
+    input {
+        font-size: 20px;
+    }
+
+    span {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .campos {
+        width: 100%;
+    }
+
+    .pForm {
+        padding: 0;
+    }
+
+    h2 {
+        padding: 10px;
+        font-size: 40px;
+    }
+
+    .envio {
+        margin-left: 40%;
+    }
+
 }
