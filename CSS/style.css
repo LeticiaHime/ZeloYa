@@ -88,13 +88,13 @@ font-family: 'Yeseva One', serif;
 font-family: 'Yeseva One', serif;
     font-size: 20px;
     color: var(--cormarrom);
-    margin-top: 2%;
     font-size: 50px;
     padding-left: 50px;
     text-align: center;
+    margin-top: 5%;
 }
 .services {
-    color: var(--corcinza);
+    color: var(--corfundo);
 
 }
 
@@ -109,6 +109,113 @@ font-family: 'Yeseva One', serif;
     margin-right: 50px;
 }
 
+.servicesP{
+color: var(--corcinza);
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+font-size: 23px;
+padding-left: 50px;
+text-align: center;
+margin-left: 50px ;
+margin-right: 50px;
+}
+
+#servicos{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Yeseva One', serif;
+        color: var(--corfundo);
+        background-color: var(--cormarrom);
+        font-size: 60px;
+        padding-left: 50px;
+        text-align: center;
+        margin-top: 5%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+
+}
+#pAP{
+    margin-top: 2%;
+}
+.flexstartA{
+     
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+#flexstartap{
+    
+    display: flex;
+    justify-content: flex-start;
+    
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+#flexstartapS{
+    
+    display: flex;
+    justify-content: flex-start;
+    
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#quemsomos{
+    margin-top: 10%;
+    margin-bottom: 15%
+    
+    ;
+}
+#hquemsomos{
+    padding-right: 12px;
+    margin-left: 5%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Yeseva One', serif;
+        color: var(--cormarrom);
+       
+        font-size: 90px;
+}
+#flexend{
+    display: flex;
+}
+#pEN{
+    padding-right: 12px;
+    margin-right: 5%;
+}
+
+#pENp{
+    margin-top: 5%;
+}
+#hAP{
+    padding-right: 12px;
+    margin-left: 5%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Yeseva One', serif;
+        color: var(--cormarrom);
+       
+        font-size: 50px;
+
+}
+#pquemsomos{
+    margin-top: 5%;
+    font-size: 28px;
+}
+
+.backp{
+    background-color: var(--cormarromclaro);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    border-radius: 8%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+span{
+    color: var(--cormarromclaro);
+}
 .img2 {
     float: right;
     padding-bottom: 10px;
@@ -199,18 +306,30 @@ input {
 
 footer p {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
     color: var(--corfundo);
     font-size: 15px;
     background-color: var(--cormarrom);
-    margin-bottom: 0;
     padding-left: 0;
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+}
+#center{
+    
+        font-family: 'Poppins', sans-serif;
+        font-size: 23px;
+        margin-left: 50px ;
+        margin-right: 50px;
+        color: var(--corcinza);
+
+
 }
 
-footer {
-    background-color: var(--cormarrom);
-    padding: 2.5%;
+footer{
+    padding-top: 40px;
 }
+
+
 
 #icon {
     font-size: 27px;
@@ -576,3 +695,17 @@ footer {
     width: 100%;
     height: 100%;
 }
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--corfundo);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--corfundomarrom);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid var(--cormarrom);  /* creates padding around scroll thumb */
+  }
