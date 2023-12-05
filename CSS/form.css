@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Yeseva+One&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --corfundo: #EDEDE9;
+    --cormarrom: #A8815E;
+    --corrose: #F0DDD2;
+    --corcinza: #7B7B7B;
+    --cormarromclaro: rgb(204, 168, 138);
+    --corfundomarrom: #c9986bb6;
+    --cormarromzão: #745a43;
+}
+
+body {
+    background-image: url(https://www.dicasdemulher.com.br/wp-content/uploads/2021/09/com-fazer-o-bebe-arrotar-00.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+h1 {
+    margin: 0px;
+    text-align: center;
+    color: var(--corfundo);
+    background-color: var(--cormarrom);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Yeseva One', serif;
+    font-size: 60px;
+    background-image: url(http://127.0.0.1:5500/IMG/Logo2_2.0.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 240px;
+
+
+}
+
+h2 {
+
+    color: var(--cormarrom);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Yeseva One', serif;
+    font-size: 30px;
+}
+
+h3 {
+    color: var(--corfundo);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Yeseva One', serif;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 20px;
+    color: black;
+
+}
+
+.bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.bn632-hover:hover {
+    background-position: 100% 0;
+
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+    outline: none;
+}
+
+.bn632-hover.bn27 {
+    background-image: linear-gradient(to right,
+
+            #cca88a,
+            #ec8c69,
+            #A8815E,
+            #c9986bb6);
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+
+.title {
+    background-color: rgb(204, 168, 138, 0.6);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.form {
+    margin: 20px;
+}
+
+.style {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: var(--cormarromzão);
+
+}
+
+.style2 {
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: var(--cormarromzão);
+}
+
+.grupo1 {
+    margin: 30px;
+}
+
+.logo {
+    width: 300px;
+}
+
+.navbar {
+    background-color: var(--cormarrom);
+}
