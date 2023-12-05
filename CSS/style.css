@@ -780,7 +780,16 @@ ul{
 	color: #24262b;
 	background-color: #ffffff;
 }
+footer{
+    margin-top: 10%;
+}
 
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
 /*responsive*/
 @media(max-width: 767px){
   .footer-col{
