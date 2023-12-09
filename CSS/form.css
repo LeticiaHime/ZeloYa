@@ -140,3 +140,14 @@ p {
 .navbar {
     background-color: var(--cormarrom);
 }
+
+@media (max-width: 400px) {
+    * {
+        text-align: center;
+
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
